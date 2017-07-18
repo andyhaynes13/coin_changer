@@ -11,7 +11,7 @@ def test_assert_that_0_cents_equals_empty_hash
 end
 
 
-def test_assert_that_1_equals_penny
+def test_assert_that_1_cent_equals_penny
 	assert_equal({"penny" => 1},make_change(1))
 end
 
